@@ -143,6 +143,7 @@ public class MybatisPlusDemoApplicationTests {
 
         //orderByDesc,排序
         //wrapper.orderByDesc("id");
+        wrapper.orderByAsc("id");
 
         //last,拼接
         //wrapper.last("limit 1");
